@@ -1,0 +1,339 @@
+/*==================GENERIC IFRAME STYLES==========================*/
+
+  iframe#MyRequests.self-app-iframe {
+    margin: 2rem auto;
+  }
+
+  a.save.btn.btn-af {
+    margin-right: 0px;
+  }
+
+  a.finish.btn.btn-af {
+    margin-left: 200px !important;
+  }
+
+  a.finish.btn.btn-af>span {
+    display: none;
+  }
+  a.finish.btn.btn-af::before {
+    content: "Return to Website";
+    width: 100%;
+    height: auto;
+  }
+
+  button.btn.btn-af.cancelbutton {
+    border: 2px solid lightgrey !important;
+    color: grey !important;
+  }
+
+  button.btn.btn-af.cancelbutton:hover {
+    color: #fff !important;
+  }
+  
+  /*===========Blue Boxes on the Forms========*/
+  
+  .div-info-alert {
+    background-color: #005ea5;
+    font-size: 12pt;
+    color: #ffffff;
+    word-wrap: break-word;
+    padding: 15px 15px 15px;
+    text-align: center;
+}
+
+/*============CTA Red Button==============*/
+
+.link-rbkwebsite-button {
+    background-color: #A0505C;
+    border: 4px solid #A0505C;
+    border-radius: 1.5rem;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 700;
+    font-size: 16px !important;
+    margin: 0 0 .75rem;
+    padding: .625rem .75rem;
+    text-align: center;
+    text-decoration: none !important;
+    transition: all 200ms ease-out;
+}
+
+/*==================END OF GENERIC IFRAME STYLES==========================*/
+
+
+/*=========================NEW STATUS ICONS ON FORM SECTIONS====================*/
+
+li.sectionNameWrapper a::before {
+
+    background-color: lightgrey;
+    border-radius: 50%;
+    color: transparent !important;
+    content: " ";
+    width: 45px;
+    height: 45px;
+    margin-bottom: 14px;
+}
+
+li.sectionNameWrapper.active {
+	border-bottom: 3px solid #09509d;
+}
+
+li.sectionNameWrapper.active.valid {
+	border-bottom: 3px solid #22a473;
+}
+
+li.sectionNameWrapper.valid a::before {
+  background-color: transparent !important;
+  border-radius: 50%;
+  border: 3px solid #22a473;
+  content: " ";
+  width: 45px;
+  height: 45px;
+  margin-bottom: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 50 50' width='50pt' height='50pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_sitYRUwCsIjYS1jAxlv4bAm2w5BrRkuX'%3E%3Crect width='50' height='50'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_sitYRUwCsIjYS1jAxlv4bAm2w5BrRkuX)'%3E%3Cg opacity='0'%3E%3Crect x='1' y='1' width='48' height='48' transform='matrix(1,0,0,1,0,0)' fill='rgb(255,255,255)'/%3E%3C/g%3E%3Ccircle id='outerCircle' vector-effect='non-scaling-stroke' cx='25' cy='25' r='20' fill='rgb(255,255,255)' stroke-width='3' stroke='rgb(34,164,115)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3Cpath id='checkMark' d='M 22.09 33.286 L 22.153 33.352 L 36.528 18.165 L 34.837 16.379 L 21.809 30.144 L 15.135 23.093 L 13.472 24.85 L 21.773 33.621 L 22.09 33.286 Z ' fill-rule='forwards' fill='rgb(34,164,115)' vector-effect='non-scaling-stroke' stroke-width='1' stroke='rgb(34,164,115)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-size: cover;
+}
+
+li.sectionNameWrapper.active.valid a::before {
+  background-color: transparent !important;
+  border-radius: 50%;
+  border: 3px solid #22a473;
+  content: " ";
+  width: 45px;
+  height: 45px;
+  margin-bottom: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 50 50' width='50pt' height='50pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_sitYRUwCsIjYS1jAxlv4bAm2w5BrRkuX'%3E%3Crect width='50' height='50'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_sitYRUwCsIjYS1jAxlv4bAm2w5BrRkuX)'%3E%3Cg opacity='0'%3E%3Crect x='1' y='1' width='48' height='48' transform='matrix(1,0,0,1,0,0)' fill='rgb(255,255,255)'/%3E%3C/g%3E%3Ccircle id='outerCircle' vector-effect='non-scaling-stroke' cx='25' cy='25' r='20' fill='rgb(255,255,255)' stroke-width='3' stroke='rgb(34,164,115)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3Cpath id='checkMark' d='M 22.09 33.286 L 22.153 33.352 L 36.528 18.165 L 34.837 16.379 L 21.809 30.144 L 15.135 23.093 L 13.472 24.85 L 21.773 33.621 L 22.09 33.286 Z ' fill-rule='forwards' fill='rgb(34,164,115)' vector-effect='non-scaling-stroke' stroke-width='1' stroke='rgb(34,164,115)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3C/g%3E%3C/svg%3E");
+  //background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 50 50' width='50pt' height='50pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_sitYRUwCsIjYS1jAxlv4bAm2w5BrRkuX'%3E%3Crect width='50' height='50'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_sitYRUwCsIjYS1jAxlv4bAm2w5BrRkuX)'%3E%3Cg opacity='0'%3E%3Crect x='1' y='1' width='48' height='48' transform='matrix(1,0,0,1,0,0)' fill='rgb(255,255,255)'/%3E%3C/g%3E%3Ccircle vector-effect='non-scaling-stroke' cx='25' cy='25' r='20' fill='rgb(255,255,255)' stroke-width='3' stroke='rgb(34,164,115)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3Cpath d=' M 22.09 33.286 L 22.153 33.352 L 36.528 18.165 L 34.837 16.379 L 21.809 30.144 L 15.135 23.093 L 13.472 24.85 L 21.773 33.621 L 22.09 33.286 Z ' fill-rule='evenodd' fill='rgb(34,164,115)' vector-effect='non-scaling-stroke' stroke-width='1' stroke='rgb(34,164,115)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-size: cover;
+  stroke-dashoffset: 300;
+  stroke-dasharray: 300;
+  animation-name: circle;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+li.sectionNameWrapper.active a::before {
+  background-color: transparent !important;
+  border-radius: 50%;
+  border: 3px solid #09509d;
+  color: #ffffff;
+  content: " ";
+  width: 45px;
+  height: 45px;
+  margin-bottom: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 50 50' width='50pt' height='50pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_lRS6p0V1RshUYWkxqJRplbvMcfBQbZ94'%3E%3Crect width='50' height='50'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_lRS6p0V1RshUYWkxqJRplbvMcfBQbZ94)'%3E%3Cg opacity='0'%3E%3Crect x='1' y='1' width='48' height='48' transform='matrix(1,0,0,1,0,0)' fill='rgb(255,255,255)'/%3E%3C/g%3E%3Ccircle vector-effect='non-scaling-stroke' cx='25' cy='25' r='20' fill='rgb(255,255,255)' stroke-width='3' stroke='rgb(9,80,157)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3Cpath d=' M 11 25 C 11 22.792 12.792 21 15 21 C 17.208 21 19 22.792 19 25 C 19 27.208 17.208 29 15 29 C 12.792 29 11 27.208 11 25 L 11 25 Z M 31 25 C 31 22.792 32.792 21 35 21 C 37.208 21 39 22.792 39 25 C 39 27.208 37.208 29 35 29 C 32.792 29 31 27.208 31 25 L 31 25 Z M 21 25 C 21 22.792 22.792 21 25 21 C 27.208 21 29 22.792 29 25 C 29 27.208 27.208 29 25 29 C 22.792 29 21 27.208 21 25 Z ' fill-rule='evenodd' fill='rgb(9,80,157)'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-size: cover;
+}
+
+li.sectionNameWrapper.active.invalid.erroricon a::before {
+  border-radius: 50%;
+  color: #ffffff;
+  border: 3px solid #09509d;
+  content: " ";
+  width: 45px;
+  height: 45px;
+  margin-bottom: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 50 50' width='50pt' height='50pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_lRS6p0V1RshUYWkxqJRplbvMcfBQbZ94'%3E%3Crect width='50' height='50'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_lRS6p0V1RshUYWkxqJRplbvMcfBQbZ94)'%3E%3Cg opacity='0'%3E%3Crect x='1' y='1' width='48' height='48' transform='matrix(1,0,0,1,0,0)' fill='rgb(255,255,255)'/%3E%3C/g%3E%3Ccircle vector-effect='non-scaling-stroke' cx='25' cy='25' r='20' fill='rgb(255,255,255)' stroke-width='3' stroke='rgb(9,80,157)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3Cpath d=' M 11 25 C 11 22.792 12.792 21 15 21 C 17.208 21 19 22.792 19 25 C 19 27.208 17.208 29 15 29 C 12.792 29 11 27.208 11 25 L 11 25 Z M 31 25 C 31 22.792 32.792 21 35 21 C 37.208 21 39 22.792 39 25 C 39 27.208 37.208 29 35 29 C 32.792 29 31 27.208 31 25 L 31 25 Z M 21 25 C 21 22.792 22.792 21 25 21 C 27.208 21 29 22.792 29 25 C 29 27.208 27.208 29 25 29 C 22.792 29 21 27.208 21 25 Z ' fill-rule='evenodd' fill='rgb(9,80,157)'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-size: cover;
+
+}
+
+li.sectionNameWrapper.invalid.erroricon a::before {
+  background-color: transparent !important;
+  border-radius: 50%;
+  border: 3px solid #eb6579;
+  content: " ";
+  width: 45px;
+  height: 45px;
+  margin-bottom: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 50 50' width='50pt' height='50pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_gkKjMMWuUMaSdSJEz3iKbZW6Bq4Sz0lp'%3E%3Crect width='50' height='50'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_gkKjMMWuUMaSdSJEz3iKbZW6Bq4Sz0lp)'%3E%3Cg opacity='0'%3E%3Crect x='1' y='1' width='48' height='48' transform='matrix(1,0,0,1,0,0)' fill='rgb(255,255,255)'/%3E%3C/g%3E%3Ccircle vector-effect='non-scaling-stroke' cx='25' cy='25' r='20' fill='rgb(255,255,255)' stroke-width='3' stroke='rgb(235,101,121)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3Cpath d=' M 26.662 24.778 L 33.917 17.524 L 32.263 15.87 L 25.008 23.124 L 17.54 15.656 L 15.656 17.54 L 23.124 25.008 L 15.656 32.476 L 17.31 34.13 L 24.778 26.662 L 32.46 34.344 L 34.344 32.46 L 26.662 24.778 Z ' fill-rule='evenodd' fill='rgb(235,101,121)' vector-effect='non-scaling-stroke' stroke-width='1' stroke='rgb(235,101,121)' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-size: cover;
+}
+
+/*===================END OF NEW ICONS==========================*/
+
+
+/*==================IN MY AREA FORM=========================*/
+
+/*======================Address Search=========================*/
+
+form[data-name="In My Area Address Search Form"] section.fields.render div.field span {
+	font-family: 'Noto Sans', sans-serif !important;
+    font-size: 19px !important;
+}
+
+form[data-name="In My Area Address Search Form"] section.fields.render div.field span[data-name="html3"] {
+	color: #09509d;
+}
+
+/*====================In My Area Results==========================*/
+
+iframe#fillform-frame-1[title="In my Area Results Form"] html body {
+	border-top: solid 4px #02836d !important;
+}
+
+
+form[data-name="In my Area Results Form"] section.fields.render {
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render h2 {
+    color: rgb(60,60,60);
+	font-size: 28px;
+    font-weight: 600;
+    line-height: 36.4px;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render h3 {
+	color: rgb(60,60,60);
+	font-size: 25px;
+    font-weight: 600;
+    line-height: 32.5px;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field {
+	left: 24px;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span {
+	font-family: 'Noto Sans', sans-serif !important;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-type="staticText"] {
+    display: list-item;
+    position: relative;
+    left: 48px;
+    margin: -5px !important;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="statictext1"] {
+	margin-top: -40px;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="statictext36"] {
+	color: #09509d;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-type="staticText"] div {
+	position: relative;
+	top: -20px;
+	left: 14px;
+	font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-type="staticText"] div strong {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="statictext14"] {
+	margin-top: 14px !important;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html8"] {
+	margin-top: -100px;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="statictext14"], form[data-name="In My Area Form"] section.fields.render div.field span[data-name="statictext31"] {
+	display: block !important;
+    left: 0 !important;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field a {
+    color: #09509d;
+    text-decoration: underline;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field a:focus {
+	outline: 3px solid #09509d;
+    background: #09509d;
+    border: 3px solid #fff;
+    color: #fff !important;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field a:visited {
+	color: #a0505c;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="statictext12"], form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html2"], form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html6"], form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html7"] {
+    display: list-item;
+    margin: -5px !important;
+    left: 48px;
+
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="statictext12"] div, form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html2"] div, form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html6"] div, form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html7"] div {
+   position: absolute;
+   top: 0;
+   left: 14px;
+}
+
+form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html1"] table {
+	position:relative;
+	left: 48px;
+}
+
+/*===================MEDIA QUERIES==========================*/
+@media (max-width:525px) {
+	
+	.fillinButtonsLeft, .fillinButtonsRight, .form-actions-list-element.submit-element, .form-actions-list-element.next-element {
+		width: 100% !important;
+	}
+	.form-actions-list-element.save-element {
+		width: 100%;
+		margin: 5px 0 !important;
+	}
+	button.btn.btn-af.previousbutton, button.btn.btn-af.cancelbutton {
+		width: 100%;
+	}
+	button.btn.btn-af.submitbutton, button.btn.btn-af.nextbutton {
+		width: 100%;
+		margin-top: 3.5px !important;
+		background-color: #162755 !important;
+		color: #fff !important;
+	}
+	
+	/*======================IN MY AREA===========================*/
+	
+	form[data-name="In my Area Results Form"] section.fields.render div.field {
+		left: 0px;
+	}
+	
+	form[data-name="In my Area Results Form"] section.fields.render div.field span[data-type="staticText"], form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="statictext12"],
+	form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html6"] 
+	{
+		left: 20px;
+	}
+	
+	form[data-name="In my Area Results Form"] section.fields.render div.field span[data-type="staticText"] div {
+		position: relative;
+		top: -20px;
+	}
+	
+	form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html2"] {
+		left: 20px;
+		margin-bottom: 36px !important;
+	}
+	
+	form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html7"] {
+		left: 20px;
+		margin-bottom: 75px !important;
+	}
+	
+	form[data-name="In my Area Results Form"] section.fields.render div.field span[data-name="html1"] table {
+		left: 14px;
+	}
+
+}
