@@ -31,44 +31,12 @@ a, a:visited {
 div#header {
 	display: none !important;
 }
+	
 
+.ui-pnotify-action-button.btn.btn-default.ui-pnotify-confirm-mx-1.svelte-1y9suua:nth-child(2) {
+	display: none;
+}	
 
-/*-------Right Navigation-------
-.rightNav {
-  width: 300px;
-  position: absolute;
-  right: 0.35em;
-  top: 75px;
-}
-
-.rightNavList {
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  list-style: none;
-  text-align: center;
-}
-
-.rightNavList > li > a + span {
-  font-size: 1.3em;
-}
-
-.rightNavList li:hover, .rightNavList a:hover {
-  color: #09509D;
-}
-
-.rightNavList li a {
-  color: #3c3c3c;
-  font-size: 1.75em;
-  display: block;
-}
-
-.mobileNav {
-  display: none;
-}*/
 
 /*=======================TOOLBAR=================================*/
   
@@ -204,6 +172,7 @@ div#header {
   
   
   #registerLink, #loginLink {
+	display: none;
     color: #A0505C !important;
     background-color: #fff!important;
     border-radius: 25px;
@@ -230,39 +199,6 @@ div#header {
     background-color: #fff;
     color: #09509D;
   }
-  
-  
-  /*.right-menu {
-    position: absolute;
-    padding: 0;
-    width: 50%;
-    top: 40%;
-    transform: translateY(-52%);
-    right: 0;
-  }
-  
-  .right-menu-wrapper {
-    margin: 0 !important;
-    text-align: center;
-  }
-  
-  .right-menu-wrapper li {
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 2rem;
-    font-size: 1.125rem;
-    font-weight: bold;
-  }
-  
-  .right-menu-wrapper li>span {
-    width: 2.5rem;
-    height: 2.5rem;
-    display: block;
-  }
-  
-  .right-menu-wrapper li>span.icon {
-    margin: 0.75rem auto;
-  }*/
 
 /*==============================MAIN PAGE ANON================================*/
 
@@ -312,7 +248,7 @@ div#header {
   
   ul.registerList>li {
     list-style: none;
-    margin-bottom: 1px;
+    margin-bottom: 10px !important;
   }
   
   ul.registerList>li::before {
@@ -322,6 +258,10 @@ div#header {
     display: inline-block; 
     width: 1.3em; 
     margin-left: -1em;
+  }
+  
+  .firstCol {
+	  top: 24px;
   }
   
   .secondCol {
@@ -454,10 +394,6 @@ div#header {
     margin: 15px;
   }
   
-  /*.socialMedia_icons li:first-child {
-    margin-left: 0;
-  }*/
-  
   .socialMedia_icons {
 	  padding: 0px;
   }
@@ -494,11 +430,11 @@ div#header {
   .inner_text {
     font-size: 14px;
   }
-  /*.main-grid {
+  .main-grid {
     -ms-grid-columns: (1fr)[2] !important;
-    grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-columns: repeat(2, 1fr) !important;
     grid-auto-rows: 120px !important;
-  }*/
+  }
   .rbkHeaderNav {
     display: none;
   }
@@ -530,53 +466,59 @@ div#header {
 	ul#session-badge {
 		margin: 15px auto !important;
 	}
-	
+
 	ul#session-badge>li {
 		margin: 10px auto !important;
 		text-align: center;
 		background-color: #fff !important;
 	}
-	
+
 	ul#session-badge>li:hover {
-		color: #3c3c3c !important;
+		color: #3c3c3c #!important;
 	}
-	
+
 	a#loginLink, a#registerLink {
 		width: 70%;
-		display: block;
+		display: none;
 		margin: 0 auto !important;
 	}
-	
+
 	#header_logo {
 		width: 6.9375rem !important;
-		left: 15px !important;
+		left: 50%;
+		transform: translateX(-50%);
 		top: 10px !important;
 	}
-	
+
 	button#navDropdownToggle {
 		display: none;
 	}
-	
+
 	div.collapse.navbar-collapse#navbar-collapse {
 		display: block;
 		color: #3c3c3c;
 	}
-	
+
 	div#navbar-collapse>ul.nav.navbar-nav {
 		margin-top: 0px;
 	}
-	
+
 	div#navbar-collapse>ul.nav.navbar-nav>li>a {
 		color: #3c3c3c;
 	}
-	
+
 	div#navbar-collapse>ul.nav.navbar-nav>li>a:focus {
 		font-weight: bold;
 	}
-	
+
 }
 
 @media (max-width: 525px) {
+	
+   .navbar.main.navbar-static-top.navbar-inverse {
+    height:130px;
+   }
+  
   .warningText > p {
     width: 85%;
     font-size: 12px;
@@ -606,19 +548,11 @@ div#header {
 	  display: block;
   }
   
-  .top-right-navbar {
-	  position: unset !important;
-  }
-  
   #header_logo {
 	  left: 50vw !important;
 	  transform: translateX(-45%);
 	  top: 5px !important;
 	  width: 6.9375rem !important;
-  }
-  
-  ul#session-badge {
-	  margin-top: 100px !important;
   }
   
   #anon_container>h1 {
